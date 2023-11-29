@@ -40,6 +40,14 @@ h1 {
   text-align: justify;
 }
 
+.loader-wrap {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 500px) {
   .posts {
     width: 96%;
