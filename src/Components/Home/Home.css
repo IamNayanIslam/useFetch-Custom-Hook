@@ -13,3 +13,11 @@ main {
 main p {
   text-align: justify;
 }
+
+@media screen and (max-width: 500px) {
+  main {
+    width: 94%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+}

@@ -7,15 +7,21 @@ export default function Header() {
       <nav>
         <div className="logo">
           <h1>
-            <Link to="">Brand</Link>
+            <Link to="" className="link">
+              HIYA
+            </Link>
           </h1>
         </div>
         <ul>
           <li>
-            <Link to="post">Posts</Link>
+            <Link to="post" className="link">
+              Posts
+            </Link>
           </li>
           <li>
-            <Link to="photos">Photos</Link>
+            <Link to="photos" className="link">
+              Photos
+            </Link>
           </li>
         </ul>
       </nav>

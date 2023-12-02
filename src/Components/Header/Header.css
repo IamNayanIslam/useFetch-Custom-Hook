@@ -2,6 +2,10 @@
   width: 100%;
 }
 
+.link {
+  text-decoration: none;
+}
+
 nav {
   width: 1280px;
   min-height: 80px;
@@ -21,4 +25,11 @@ nav ul {
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    width: 94%;
+    margin: 0 auto;
+  }
 }
