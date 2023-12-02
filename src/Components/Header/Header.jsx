@@ -8,7 +8,7 @@ export default function Header() {
         <div className="logo">
           <h1>
             <Link to="" className="link">
-              HIYA
+              NAYAN
             </Link>
           </h1>
         </div>
