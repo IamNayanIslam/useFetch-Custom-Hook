@@ -3,6 +3,7 @@ import App from "../App";
 import Posts from "../Components/ShowPosts/Posts";
 import Home from "../Components/Home/Home";
 import ShowPhotos from "../Components/ShowPhotos/ShowPhotos";
+import Error from "../Components/Error/Error";
 
 export const routes = createBrowserRouter([
   {
@@ -22,5 +23,9 @@ export const routes = createBrowserRouter([
         element: <ShowPhotos />,
       },
     ],
+  },
+  {
+    path: "*",
+    element: <Error />,
   },
 ]);

@@ -23,6 +23,11 @@ export default function Header() {
               Photos
             </Link>
           </li>
+          <li>
+            <Link to="error" className="link">
+              Error
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>
