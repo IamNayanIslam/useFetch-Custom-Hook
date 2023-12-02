@@ -1,0 +1,15 @@
+.home-wrap {
+  width: 100%;
+  min-height: 100vh;
+  background: #e1d9e1;
+}
+
+main {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main p {
+  text-align: justify;
+}

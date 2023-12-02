@@ -1,12 +1,12 @@
-import ShowPhotos from "./Components/ShowPhotos/ShowPhotos";
-import Posts from "./Components/ShowPosts/Posts";
+import { Outlet } from "react-router-dom";
+import Header from "./Components/Header/Header";
 
 function App() {
   return (
     <>
       <div>
-        <Posts />
-        <ShowPhotos />
+        <Header />
+        <Outlet />
       </div>
     </>
   );

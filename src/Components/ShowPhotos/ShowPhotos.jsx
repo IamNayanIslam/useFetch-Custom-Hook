@@ -1,4 +1,4 @@
-import { HashLoader } from "react-spinners";
+import { RiseLoader } from "react-spinners";
 import useFetch from "../CustomHook/useFetch";
 import Paragraph from "./Paragraph";
 import "./ShowPhotos.css";
@@ -19,7 +19,7 @@ export default function ShowPhotos() {
           ))
         ) : (
           <div className="loader-wrap">
-            <HashLoader color="#36d7b7" />
+            <RiseLoader color="#36d7b7" />
           </div>
         )}
       </div>
